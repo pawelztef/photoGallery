@@ -1,0 +1,114 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  font-size: 1.75em;
+  color: white;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 13px;
+  font-size: 1.25em;
+  color: medium-gray;
+  text-transform: uppercase;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: black;
+  color: white;
+  font-size: .75em; 
+}
+a img {
+  border: none;
+}
+.page_container {
+  width: 960px;
+  margin: 20px auto 0 auto;
+}
+.gallery_credit {
+  width: 425px;
+  float: left;
+  margin: 0 0 10px 15px;
+}
+.gallery_type {
+  width: 500px;
+  float: left;
+  padding: 4px 0 0 0;
+  margin: 0 0 10px 0;
+  text-align: right;
+
+}
+.gallery_top {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background: url("../images/template/page_top.png") 0 0 no-repeat;
+  border-radius: 25px;
+
+}
+.gallery_content {
+  padding: 15px 0 1px 0;
+  margin: 0;
+  background: url("../images/template/page_tail.png") 0 0 repeat-y;
+
+}
+.gallery_thumbnails a {
+  width: 75px;
+  height: 75px;
+  float: left;
+  border: solid 1px #999;
+  padding: 0;
+  margin: 0 23px 23px 0;
+}
+.gallery_thumbnails a:hover {
+  border-color: white;
+}
+.gallery_thumbnails a.selected {
+  border-color: white;
+}
+
+.gallery_thumbnails {
+  width: 500px;
+  float: left;
+  padding: 0;
+  margin: 0 0 0 40px;
+
+}
+.gallery_preview {
+  width: 375px;
+  height: 375px;
+  margin: 0;
+  padding: 0;
+  float:  left;
+
+}
+.gallery_contact {
+  width: 477px;
+  height: 60px;
+  padding: 0 23px 0 0;
+  margin: 0 0 0 40px;
+  float: left;
+  text-align: right;
+
+}
+.gallery_caption {
+  width: 375px;
+  float: left;
+  margin: 0;
+  padding: 0;
+
+}
+.gallery_bottom {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background: url("../images/template/page_bottom.png") 0 0 no-repeat;
+  border-radius: 25px;
+
+}
+.clear_both {
+  clear: both;
+  line-height: 1px;
+}
