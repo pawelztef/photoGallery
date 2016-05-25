@@ -84,6 +84,18 @@ a img {
   float:  left;
 
 }
+.gallery_preview a {
+  width: 375px;
+  height: 375px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: solid 1px #999
+}
+.gallery_preview a:hover {
+  border: solid 1px white;
+
+}
 .gallery_contact {
   width: 477px;
   height: 60px;
@@ -111,4 +123,7 @@ a img {
 .clear_both {
   clear: both;
   line-height: 1px;
+}
+.gallery_preload_area {
+  display: none;
 }
