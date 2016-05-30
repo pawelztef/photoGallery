@@ -23,6 +23,14 @@ body {
 a img {
   border: none;
 }
+a.contactlink {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 30px 0 0;
+  margin: 0;
+  background: url("../images/template/envelope.png") no-repeat right 0;
+}
 .page_container {
   width: 960px;
   margin: 20px auto 0 auto;
@@ -127,3 +135,16 @@ a img {
 .gallery_preload_area {
   display: none;
 }
+p {
+  color: #999;
+  margin: 0 0 12px 0;
+}
+a.zoom {
+  color: white;
+  padding: 0 0 5px 20px;
+  margin: 0;
+  background: url("../images/template/magnifier.png") 0 0 no-repeat;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+

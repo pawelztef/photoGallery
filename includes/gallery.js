@@ -15,7 +15,7 @@ $(document).ready(function() {
           $('.gallery_preload_area img').imgpreload(function() {
 
             $('.gallery_preview').html('<a class="overlaylink" href="'+photo_fullsize+'" title="'+photo_caption+'"><img src="'+photo_preview+'"/></a>');
-            $('.gallery_caption').html('<p><a class="overlaylink" href="'+photo_fullsize+'" title="'+photo_caption+'">View Large</a></p><p>'+photo_caption+'</p>');
+            $('.gallery_caption').html('<p><a class="overlaylink zoom" href="'+photo_fullsize+'" title="'+photo_caption+'">View Large</a></p><p>'+photo_caption+'</p>');
 
             $('.gallery_preview').fadeIn(500);
             $('.gallery_caption').fadeIn(500);
@@ -36,7 +36,7 @@ $(document).ready(function() {
     $('.gallery_preload_area img').imgpreload(function() {
 
       $('.gallery_preview').html('<a class="overlaylink" href="'+first_photo_fullsize+'" title="'+first_photo_caption+'"><img src="'+first_photo_preview+'"/></a>');
-      $('.gallery_caption').html('<p><a class="overlaylink" href="'+first_photo_fullsize+'" title="'+first_photo_caption+'">View Large</a></p><p>'+first_photo_caption+'</p>');
+      $('.gallery_caption').html('<p><a class="overlaylink zoom" href="'+first_photo_fullsize+'" title="'+first_photo_caption+'">View Large</a></p><p>'+first_photo_caption+'</p>');
 
       $('.gallery_preview').fadeIn(500);
       $('.gallery_caption').fadeIn(500);
