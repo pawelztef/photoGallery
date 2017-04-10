@@ -1,6 +1,2 @@
-Simple Photo Gallery 
-
-html css jquery
-
-
-no responsive yet
+Simple Photo Gallery
+HTML CSS jQuery
