@@ -1,2 +1,2 @@
-Simple Photo Gallery
+Simple Photo Gallery -
 HTML CSS jQuery
